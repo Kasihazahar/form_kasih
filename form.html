@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORM</title>
+</head>
+<style>
+	input[type=text], select {
+		width: 100%
+		padding: 15px 20 px
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid #696969
+		border-radius: 2px;
+		box-sizing: border-box;
+
+}
+
+	input[type=submit] {
+  		width: 10%;
+  		background-color: #00CED1;
+  		color: white;
+ 		padding: 14px 20px;
+  		margin: 8px 0;
+  		border: none;
+  		border-radius: 4px;
+  		cursor: pointer;
+}
+
+	input[type=submit]:hover {
+  		background-color: #45a049;
+}
+
+	div {
+  		border-radius: 5px;
+  		background-color: #f2f2f2;
+  		padding: 20px;
+}
+	
+	textarea {
+  		width: 50%;
+ 		height: 150px;
+  		padding: 12px 20px;
+  		box-sizing: border-box;
+  		border: 1px solid #696969;
+  		border-radius: 4px;
+  		resize: none;
+}
+	input[type=text] {
+ 		width: 50%;
+  		padding: 12px 20px;
+  		margin: 8px 0;
+ 		box-sizing: border-box;
+}
+
+	input[type=preview] {
+  		width: 8%;
+  		background-color: #00CED1;
+  		color: white;
+ 		padding: 14px 20px;
+  		margin: 8px 0;
+  		border: none;
+  		border-radius: 4px;
+  		cursor: pointer;
+}
+
+	input[type=preview]:hover {
+  		background-color: #45a049;
+}
+
+	div {
+  		border-radius: 5px;
+  		background-color: #f2f2f2;
+  		padding: 20px;
+
+
+</style>
+<body>
+	<h3>FILL THIS FORM WITH YOUR DETAILS</h3>
+	<div>
+		<form action="/action_page.php">
+    			<label for="yname">Your Name</label>
+			<br>
+    			<input type="text" id="fname" name="yourname" width="500" maxlenght="100" size="50">
+
+	<br>
+    			<label for="your email address">Your Email Address</label>
+			<br>
+    			<input type="text" id="your email address" name="your email address" maxlenght="100" size="50">
+	
+	<br>
+			<label for="subject">Subject</label>
+			<br>
+			<input type="text" id="Subject" name="Subject" maxlength="100" size="50">
+
+	<br>
+			<label for="message">Message</label>
+	<br><br>
+			<form>
+			<textarea></textarea>
+	<br>
+			<input type="submit" value="Send Message"> <input type="preview" value="Preview">
+			</form>
+
+
+</div>
+</body>
+</html>
